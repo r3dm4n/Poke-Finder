@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		219321731763E6C671F39D1F /* Pods_Poke_Finder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B78428B5E40B45DB33737D70 /* Pods_Poke_Finder.framework */; };
+		BE2284071EC4485100462CC6 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2283FE1EC4485100462CC6 /* GeoFire.m */; };
+		BE2284081EC4485100462CC6 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2284001EC4485100462CC6 /* GFBase32Utils.m */; };
+		BE2284091EC4485100462CC6 /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2284021EC4485100462CC6 /* GFGeoHash.m */; };
+		BE22840A1EC4485100462CC6 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2284041EC4485100462CC6 /* GFGeoHashQuery.m */; };
+		BE22840B1EC4485100462CC6 /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2284061EC4485100462CC6 /* GFQuery.m */; };
 		BE23AA0B1EC43DCD00720589 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE23AA0A1EC43DCD00720589 /* AppDelegate.swift */; };
 		BE23AA0D1EC43DCD00720589 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE23AA0C1EC43DCD00720589 /* ViewController.swift */; };
 		BE23AA101EC43DCD00720589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE23AA0E1EC43DCD00720589 /* Main.storyboard */; };
@@ -20,6 +25,21 @@
 		0541274B99179749E7FA4641 /* Pods-Poke Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Poke Finder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Poke Finder/Pods-Poke Finder.release.xcconfig"; sourceTree = "<group>"; };
 		627AEE7B861A23BDE586BFEF /* Pods-Poke Finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Poke Finder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Poke Finder/Pods-Poke Finder.debug.xcconfig"; sourceTree = "<group>"; };
 		B78428B5E40B45DB33737D70 /* Pods_Poke_Finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Poke_Finder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2283F71EC4485100462CC6 /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
+		BE2283F81EC4485100462CC6 /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
+		BE2283F91EC4485100462CC6 /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
+		BE2283FA1EC4485100462CC6 /* GFRegionQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRegionQuery.h; sourceTree = "<group>"; };
+		BE2283FB1EC4485100462CC6 /* GeoFire-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire-Prefix.pch"; sourceTree = "<group>"; };
+		BE2283FD1EC4485100462CC6 /* GeoFire+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire+Private.h"; sourceTree = "<group>"; };
+		BE2283FE1EC4485100462CC6 /* GeoFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFire.m; sourceTree = "<group>"; };
+		BE2283FF1EC4485100462CC6 /* GFBase32Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFBase32Utils.h; sourceTree = "<group>"; };
+		BE2284001EC4485100462CC6 /* GFBase32Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFBase32Utils.m; sourceTree = "<group>"; };
+		BE2284011EC4485100462CC6 /* GFGeoHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHash.h; sourceTree = "<group>"; };
+		BE2284021EC4485100462CC6 /* GFGeoHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHash.m; sourceTree = "<group>"; };
+		BE2284031EC4485100462CC6 /* GFGeoHashQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHashQuery.h; sourceTree = "<group>"; };
+		BE2284041EC4485100462CC6 /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
+		BE2284051EC4485100462CC6 /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
+		BE2284061EC4485100462CC6 /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
 		BE23AA071EC43DCD00720589 /* Poke Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poke Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE23AA0A1EC43DCD00720589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE23AA0C1EC43DCD00720589 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,9 +79,48 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BE2283F51EC4485100462CC6 /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				BE2283F61EC4485100462CC6 /* API */,
+				BE2283FB1EC4485100462CC6 /* GeoFire-Prefix.pch */,
+				BE2283FC1EC4485100462CC6 /* Implementation */,
+			);
+			path = GeoFire;
+			sourceTree = "<group>";
+		};
+		BE2283F61EC4485100462CC6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BE2283F71EC4485100462CC6 /* GeoFire.h */,
+				BE2283F81EC4485100462CC6 /* GFCircleQuery.h */,
+				BE2283F91EC4485100462CC6 /* GFQuery.h */,
+				BE2283FA1EC4485100462CC6 /* GFRegionQuery.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		BE2283FC1EC4485100462CC6 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				BE2283FD1EC4485100462CC6 /* GeoFire+Private.h */,
+				BE2283FE1EC4485100462CC6 /* GeoFire.m */,
+				BE2283FF1EC4485100462CC6 /* GFBase32Utils.h */,
+				BE2284001EC4485100462CC6 /* GFBase32Utils.m */,
+				BE2284011EC4485100462CC6 /* GFGeoHash.h */,
+				BE2284021EC4485100462CC6 /* GFGeoHash.m */,
+				BE2284031EC4485100462CC6 /* GFGeoHashQuery.h */,
+				BE2284041EC4485100462CC6 /* GFGeoHashQuery.m */,
+				BE2284051EC4485100462CC6 /* GFQuery+Private.h */,
+				BE2284061EC4485100462CC6 /* GFQuery.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
 		BE23A9FE1EC43DCD00720589 = {
 			isa = PBXGroup;
 			children = (
+				BE2283F51EC4485100462CC6 /* GeoFire */,
 				BE23AA091EC43DCD00720589 /* Poke Finder */,
 				BE23AA081EC43DCD00720589 /* Products */,
 				6AC9A9CEF2242F44D58E2205 /* Pods */,
@@ -216,8 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2284081EC4485100462CC6 /* GFBase32Utils.m in Sources */,
 				BE23AA0D1EC43DCD00720589 /* ViewController.swift in Sources */,
+				BE2284091EC4485100462CC6 /* GFGeoHash.m in Sources */,
 				BE23AA0B1EC43DCD00720589 /* AppDelegate.swift in Sources */,
+				BE2284071EC4485100462CC6 /* GeoFire.m in Sources */,
+				BE22840A1EC4485100462CC6 /* GFGeoHashQuery.m in Sources */,
+				BE22840B1EC4485100462CC6 /* GFQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +447,7 @@
 				BE23AA1B1EC43DCD00720589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
