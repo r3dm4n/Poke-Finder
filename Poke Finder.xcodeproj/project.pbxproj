@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		219321731763E6C671F39D1F /* Pods_Poke_Finder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B78428B5E40B45DB33737D70 /* Pods_Poke_Finder.framework */; };
 		BE2284071EC4485100462CC6 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2283FE1EC4485100462CC6 /* GeoFire.m */; };
 		BE2284081EC4485100462CC6 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2284001EC4485100462CC6 /* GFBase32Utils.m */; };
 		BE2284091EC4485100462CC6 /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2284021EC4485100462CC6 /* GFGeoHash.m */; };
@@ -24,7 +23,6 @@
 /* Begin PBXFileReference section */
 		0541274B99179749E7FA4641 /* Pods-Poke Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Poke Finder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Poke Finder/Pods-Poke Finder.release.xcconfig"; sourceTree = "<group>"; };
 		627AEE7B861A23BDE586BFEF /* Pods-Poke Finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Poke Finder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Poke Finder/Pods-Poke Finder.debug.xcconfig"; sourceTree = "<group>"; };
-		B78428B5E40B45DB33737D70 /* Pods_Poke_Finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Poke_Finder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2283F71EC4485100462CC6 /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
 		BE2283F81EC4485100462CC6 /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
 		BE2283F91EC4485100462CC6 /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
@@ -48,6 +46,7 @@
 		BE23AA141EC43DCD00720589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE23AA161EC43DCD00720589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE23AA1C1EC43DF700720589 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BE42A3951EC475C700FE029F /* PokeFinder-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PokeFinder-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				219321731763E6C671F39D1F /* Pods_Poke_Finder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +63,6 @@
 		0E7E6E8393D9064F46938F34 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B78428B5E40B45DB33737D70 /* Pods_Poke_Finder.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,6 +117,7 @@
 		BE23A9FE1EC43DCD00720589 = {
 			isa = PBXGroup;
 			children = (
+				BE42A3951EC475C700FE029F /* PokeFinder-Bridging-Header.h */,
 				BE2283F51EC4485100462CC6 /* GeoFire */,
 				BE23AA091EC43DCD00720589 /* Poke Finder */,
 				BE23AA081EC43DCD00720589 /* Products */,
@@ -410,6 +408,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.r3dm4n.Poke-Finder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokeFinder-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,6 +423,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.r3dm4n.Poke-Finder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokeFinder-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
